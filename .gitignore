@@ -1,0 +1,27 @@
+# Compiled output
+target/
+*.class
+
+# Logs
+*.log
+logs/
+
+# Secrets — NEVER commit these
+.env
+*.env.local
+application-local.yml
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven wrapper jar (large binary)
+.mvn/wrapper/maven-wrapper.jar

@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+    open-in-view: false
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  cache:
+    type: simple
+
+  mail:
+    host: localhost
+    port: 25
+
+jwt:
+  secret: test-secret-key-for-testing-purposes-only-must-be-256-bits-long-minimum
+  expiration: 86400000
+
+app:
+  notification:
+    enabled: false
+
+logging:
+  level:
+    com.b2chat.ecommerce: WARN
