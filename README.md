@@ -1,6 +1,12 @@
-# B2Chat – E-Commerce Order Management System
+# E-Commerce Order Management System
 
-> **Backend Software Developer Practical Test** — Spring Boot 3 · PostgreSQL · Redis · JWT · Docker
+[![Java 17](https://img.shields.io/badge/Java-17-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://postgresql.org)
+[![Redis](https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
+> **Distributed Backend Architecture** — Spring Boot 3 · PostgreSQL · Redis (Cache-Aside) · Spring Security + JWT · Docker
 
 ---
 
